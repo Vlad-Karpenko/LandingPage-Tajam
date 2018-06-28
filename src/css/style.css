@@ -1,0 +1,838 @@
+* {
+    box-sizing: border-box;
+}
+
+/*SECTION 1 */
+
+nav .brand {
+    font-size: 30px;
+    color: #00e0d0;
+    text-decoration: none;
+}
+
+.navbar {
+    position: absolute;
+
+}
+
+nav .logo {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.nav li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: bolder;
+    font-family: "Roboto Black"
+
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+    color: #00e0d0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.item {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.first:before, .third:before {
+    background-color: rgba(50, 42, 94, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.second:before, .fourth:before {
+    background-color: rgba(255, 0, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.carousel-caption h2 {
+    font-family: 'Playfair Display Black';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+    font-family: 'Roboto Light';
+}
+
+.carousel-indicators .active {
+    background-color: #00e0d0;
+}
+
+.carousel-caption hr {
+    width: 50px;
+    color: #00e0d0;
+    background-color: #00e0d0;
+    height: 1px;
+    border: none;
+}
+
+.learn_more {
+    padding: 15px 20px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.carousel-caption .learn_more {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .carousel-caption .learn_more {
+        margin-top: 20px;
+    }
+}
+
+.carousel-caption {
+    top: 30%;
+}
+
+@media screen and (max-width: 320px) {
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    .carousel-caption .learn_more {
+        padding: 10px 15px;
+    }
+}
+
+/* SECTION 2 */
+
+.section-2 .row {
+    padding: 70px 0;
+}
+
+.text h3 {
+    text-transform: uppercase;
+}
+
+.text p {
+    font-family: 'Roboto Light';
+}
+
+.section-2 .img {
+    text-align: right;
+}
+
+.section-2 .image {
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 767px) {
+    .section-2 {
+        text-align: center;
+    }
+
+    .section-2 .img {
+        text-align: center;
+    }
+}
+
+.section-2 .learn_more {
+    margin-top: 30px;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg-3.png");
+    background-size: cover;
+    position: relative;
+}
+
+.section-3:before {
+    background-color: rgba(50, 42, 94, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.section-3 .play {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+}
+
+.section-3 .play img:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: 'Playfair Display Black';
+    font-weight: bold;
+
+}
+
+/* SECTION 4 */
+
+.section-4 {
+    width: 100%;
+    text-align: center;
+}
+
+.section-4 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.section-4 h2 + p {
+    font-size: 14px;
+    font-family: open_sansregular;
+    letter-spacing: 2px;
+}
+
+.section-4 h2 + p + hr {
+    width: 50px;
+    color: gainsboro;
+    background-color: gainsboro;
+    height: 1px;
+    border: none;
+}
+
+.section-4 .title-block {
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display Black';
+}
+
+.title-block + p {
+    font-family: 'Roboto Light';
+}
+
+.section-4 .row div:not(:last-child) {
+    border-right: 1px solid gainsboro;
+}
+
+.section-4 .row div {
+    padding: 50px 10px 0;
+}
+
+.section-4 .second_row {
+    padding: 0 0 100px;
+}
+
+/* SECTION 5 */
+
+.section-5 {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 65px;
+
+}
+
+.section-5:before {
+    background-color: rgba(50, 42, 94, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.wrap {
+    position: relative;
+}
+
+.section-5 h2 {
+    padding: 65px 0 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    font-family: "Playfair Display Black";
+    font-weight: bold;
+
+}
+
+.section-5 h2 + p {
+    color: white;
+    font-size: 14px;
+}
+
+.section-5 hr {
+    width: 50px;
+    border: 0;
+    height: 1px;
+    color: gray;
+    background-color: gray;
+    margin-bottom: 45px;
+}
+
+.section-5 .item-card img {
+    width: 100%;
+
+}
+
+.section-5 .item-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section-5 .item-card {
+    border: 1px solid white;
+    padding: 0 0 25px;
+    margin-bottom: 75px;
+}
+
+.item-card p {
+    font-family: "Roboto Black";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    margin: 15px 0 0;
+}
+
+.item-card p + p {
+    font-family: "Roboto Light";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+
+.section-5 .row + p {
+    font-size: 14px;
+    font-family: "Roboto Light";
+    color: white;
+    margin-bottom: 25px;
+}
+
+.section-5 .row + p + a {
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 1px solid #00e0d0;
+    font-weight: bold;
+}
+
+/* SECTION 6 */
+
+.section-6 {
+    padding: 65px 0;
+
+}
+
+.section-6 img {
+    width: 100%;
+}
+
+.section-6 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section-6 .row div {
+    padding: 0;
+}
+
+.section-6 .text {
+    padding-bottom: 65px;
+}
+
+.section-6 h2 {
+    font-family: "Playfair Display Black";
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.section-6 h2 + a {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: gray;
+    float: right;
+    line-height: 65px;
+}
+
+.section-6 .load-more {
+    text-align: center;
+}
+
+.section-6 .load-more a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    margin: 65px 0 0;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .section-6 .text {
+        padding-bottom: 30px;
+    }
+
+    .section-6 h2, .section-6 h2 + a {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .section-6 .row div {
+        padding: 5px;
+    }
+
+}
+
+.section-7 {
+    background: url("../images/bg.png");
+    padding: 65px 0;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+}
+
+.section-7:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-color: rgba(50, 42, 94, 0.9);
+}
+
+.section-7 .container {
+    position: relative;
+}
+
+.section-7 span {
+    font-size: 100px;
+    color: white;
+    font-family: playfair_displayregular;
+
+}
+
+.section-7 .wrap_for_text {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.section-7 .wrap_for_text p {
+    font-family: playfair_displayregular;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 50px;
+
+}
+
+.section-7 h2 {
+    font-family: "Roboto Black";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-7 h2 + p {
+    font-family: "Roboto Light";
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.section-8 {
+    padding: 75px 0;
+
+}
+
+.section-8 h2 {
+    font-size: 22px;
+    font-family: "Roboto Light";
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.section-8 img {
+    display: block;
+    margin: 10px 0 45px;
+
+}
+.section-8 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.section-8 input[type=text], .section-8 input[type=email] {
+    width: 460px;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border: solid 1px lightgray;
+    outline: 0;
+}
+
+.section-8 label {
+    font-weight: normal;
+}
+
+.section-8 textarea {
+    height: 200px;
+    width: 460px;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border: solid 1px lightgray;
+    outline: 0;
+}
+
+.section-8 input::placeholder, .section-8 textarea::placeholder {
+    font-size: 14px;
+    color: gray;
+    font-family: "Roboto Light";
+    letter-spacing: 1px;
+}
+
+.section-8 input[type=submit] {
+    background-color: transparent;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .section-8 input[type=text], .section-8 input[type=email] {
+        width: 360px;
+    }
+
+    .section-8 textarea {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-8 {
+        text-align: center;
+    }
+
+    .section-8 img {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-8 input[type=text], .section-8 input[type=email] {
+        width: 260px;
+    }
+
+    .section-8 textarea {
+        width: 260px;
+    }
+
+    .section-8 img {
+        width: 100%;
+    }
+}
+
+.section-9 {
+    background: url("../images/bg-footer.png") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+    color: white;
+    background-position: center;
+}
+
+.section-9:before {
+    background-color: rgba(50, 42, 94, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.section-9 h3 {
+    text-transform: uppercase;
+    font-family: "Roboto Black";
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.section-9 .logo {
+    margin-bottom: 35px;
+}
+
+.section-9 p {
+    line-height: 30px;
+    font-family: robotolight;
+}
+
+.section-9 .link, .section-9 .copy {
+    margin-top: 45px;
+}
+
+.section-9 .logo span {
+    color: #00e0d0;
+    font-size: 30px;
+    font-family: robotolight;
+    margin-left: 15px;
+}
+
+.section-9 .fa-phone {
+    transform: rotate(270deg);
+
+}
+
+.section-9 .fa {
+    line-height: 35px;
+    margin-right: 20px;
+}
+
+.section-9 i + p {
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.section-9 .sec-row p {
+    line-height: 15px;
+    text-align: right;
+    margin-bottom: 0;
+    font-family: robotolight;
+}
+
+.section-9 .sec-row a {
+    color: white;
+    text-transform: uppercase;
+    font-family: robotolight;
+}
+
+.section-9 .sec-row a:not(:first-child) {
+    margin-left: 30px;
+}
+
+.section-9 input {
+    width: 210px;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    height: 45px;
+}
+
+.section-9 input::placeholder {
+    color: lightgray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section-9 button {
+    opacity: 0.5;
+    margin-left: 5px;
+    height: 45px;
+    position: relative;
+
+}
+.section-9 button:hover{
+    background-color: #222222;
+}
+.section-9 button:hover i{
+    color: white;
+}
+.section-9 button i {
+    color: black;
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+.section-9 .social a {
+    color: white;
+}
+
+.section-9 .social i {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 35px;
+    height: 35px;
+    width: 35px;
+    margin-right: 0;
+    margin-left: 7px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+    .third-col {
+        text-align: center;
+    }
+
+    .section-9 form button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 991px ) and (min-width: 768px) {
+    .section-9 .social {
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-9 {
+        text-align: center;
+    }
+
+    .section-9 p {
+        margin-bottom: 20px;
+    }
+
+    .section-9 h3 {
+        margin: 30px 0 10px;
+    }
+
+    .section-9 .sec-row p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-9 {
+        padding-bottom: 20px;
+    }
+
+    .section-9 .link a {
+        font-size: 12px;
+    }
+}
+
+.learn_more:hover {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+.section-5 p + a:hover {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+.load-more a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    background-color: #222222;
+}
+
+.section-8 input[type=submit]:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    background-color: #222222;
+
+}
+
+.fa-facebook:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-dribbble:hover {
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    background-color: fuchsia;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-google-plus:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-youtube-play:hover {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+.center img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
