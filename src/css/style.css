@@ -26,8 +26,7 @@ nav .logo {
     font-size: 13px;
     line-height: 50px;
     font-weight: bolder;
-    font-family: "Roboto Black"
-
+    font-family: "Roboto Black";
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -114,6 +113,22 @@ nav .logo {
 
 .carousel-caption {
     top: 30%;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    ul.navbar-nav {
+        display: inline-flex;
+    }
+
+    .nav li a {
+        line-height: 25px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -505,10 +520,12 @@ nav .logo {
     margin: 10px 0 45px;
 
 }
-.section-8 img:hover{
+
+.section-8 img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 .section-8 input[type=text], .section-8 input[type=email] {
     width: 460px;
     font-size: 18px;
@@ -685,12 +702,15 @@ nav .logo {
     position: relative;
 
 }
-.section-9 button:hover{
+
+.section-9 button:hover {
     background-color: #222222;
 }
-.section-9 button:hover i{
+
+.section-9 button:hover i {
     color: white;
 }
+
 .section-9 button i {
     color: black;
     text-align: center;
@@ -825,10 +845,12 @@ nav .logo {
     background-color: white;
     cursor: pointer;
 }
-.center{
+
+.center {
     width: 70%;
     margin: 0 auto;
 }
+
 .center img {
     width: 100%;
     border-radius: 50%;
